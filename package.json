@@ -1,0 +1,29 @@
+{
+  "name": "shootgl",
+  "version": "1.0.0",
+  "description": "This is a playground for messing with WebGL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngasull/ShootGL.git"
+  },
+  "author": "Nicolas Gasull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngasull/ShootGL/issues"
+  },
+  "homepage": "https://github.com/ngasull/ShootGL#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "babylonjs": "^2.2.0"
+  }
+}
